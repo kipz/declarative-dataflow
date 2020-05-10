@@ -9,8 +9,7 @@
 //! operator implementations than are evident from the logical times,
 //! which appear to execute in sequence.
 
-use timely::dataflow::operators::unordered_input::UnorderedHandle;
-use timely::dataflow::operators::ActivateCapability;
+use timely::dataflow::operators::unordered_input::{ActivateCapability, UnorderedHandle};
 use timely::progress::Timestamp;
 
 use differential_dataflow::difference::Monoid;
